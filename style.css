@@ -1,0 +1,299 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;/* 16px × 62.5% = 10px*/
+    scroll-behavior: smooth;
+}
+body
+{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+section
+{
+    text-align: center;
+}
+h1
+{
+    text-align: left;
+    margin-left:10%;
+}
+.text-center
+{
+    text-align: center;
+}
+.text-right
+{
+    text-align: right;
+}
+
+/* Header */
+.Header
+{
+    text-align: right;
+    background-color: white;
+}
+.Nav 
+{
+    list-style: none;
+    overflow: hidden;
+} 
+.Nav>li
+{
+    width: 70px;
+    text-align: center;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.Nav>li>a
+{
+    text-decoration: none;
+    color: black;
+}
+.text-right
+{
+    text-align: right;
+}
+/* Header */
+/* Top */
+.Top
+{
+    text-align: center
+}
+.Btn
+{
+    padding:1em 1em;
+    color: #000;
+    background-color: #FFE000;
+    text-decoration:none;
+    font-size: 1.5rem;
+    border-radius:20px;
+}
+.block
+{
+    display:block;
+    text-align: center;
+    width:200px;
+    margin: 10px auto;
+}
+/* Top */
+/* Mission */
+.text-statement
+{
+    text-align: justify;
+    text-align: center;
+}
+/* Mission */
+/* News */
+.News-block
+{
+    text-align: center;
+    margin-left: 10%;
+}
+ul
+{
+    display:flex;
+    float: left;
+}
+ul>li 
+{
+    list-style:none;
+}
+.image-wrap
+ {
+    position: relative;
+    width: 300px;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+.day
+{
+    font-size: 12px;
+    text-align: left;
+}
+.news-title
+{
+    text-align: justify;
+}
+/* News */
+/* Service */
+.Service
+{
+    clear: left;
+    text-align: center;
+}
+.Service-all
+{
+    margin-left: 10%;
+    width : auto; 
+    height:auto;
+    text-align: center;
+}
+.Service-type img
+{
+    object-fit: cover;
+    width: auto;
+    height: 400px;
+    margin-right: 40px;
+}
+.text-service
+{
+    font-size: 8px;
+    width: 400px;
+    text-align: justify;
+}
+/* Service */
+/* Member */
+.Member
+{
+    clear: left;
+}
+.Member-all
+{
+    text-align: center;
+    margin-left: 10%;
+}
+.Member-pic
+{
+    width: auto;
+    height:400px;
+}
+.Member-Prof
+{
+    width: auto;
+    box-sizing: border-box;
+    height: 400px;
+    max-height: 400px;
+}
+.prof
+{
+    padding:0 100px;
+    font-size: small;
+    text-align: justify;
+    flex: none;
+}
+.Btnblockmeety
+{
+}
+/* Member */
+/* Conpany */
+
+.kaisha 
+{
+    width: 100%;
+    padding: 0 10%;
+}    
+.kaisha th,
+.kaisha td 
+{
+    border: 1px solid  #B1BECB;
+    padding: 20px;
+}
+.kaisha th 
+{
+    font-weight: bold;
+    background-color:  #B1BECB; 
+}
+@media screen and (max-width: 767px)
+ {
+    .kaisha,
+    .kaisha tr,
+    .kaisha td,
+    .kaisha th {display:block;}
+    .kaisha th {width:auto;}
+}
+/* Conpany */
+/* Contact */
+.Contact
+{
+    padding: 80px 0 64px;
+}
+.Contact-toykake
+{
+   width: 560px;
+   margin: auto;
+}
+.form-inner
+{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 0 40px;
+}
+ .form-title
+ {
+    width: 152px;
+    margin: 0 20px 0 0;
+    padding: 8px 0;
+    font-weight: bold;
+    text-align: right;
+ }
+ .form-title.radio-check
+ {
+     padding: 0;
+ }
+ .form-item
+ {
+     width: 388px;
+     margin: 0 0 32px;
+ }
+ .form-parts
+ {
+    box-sizing: border-box;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    width: 100%;
+    padding: 6px 8px;
+    border: solid 1px#B1BECB;
+    font-size: 1.6rem;
+ }
+ .form-select
+ {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 32px;
+    padding: 6px 8px;
+    border: solid 1px#B1BECB;
+    font-size: 1.6rem;
+ }
+ .btn-submit
+ {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    border: none;
+    line-height: 3;
+    width: 560px;
+    margin: auto;
+    background-color:#B1BECB;
+ }
+
+/* Contact */
+/* Footer */
+.Sql-pagetop
+{
+    border: none;
+    color: #B1BECB;
+    font-size: 24px;
+    background-color: #fff;
+    margin: 10px;
+}
+.Footer
+{
+    padding: 24px 0;
+    background-color:#B1BECB;
+    color: #fff;
+}
+.Footer .Copyright
+{
+   position: relative;
+}
+/* Footer */
